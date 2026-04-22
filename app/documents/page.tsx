@@ -1,6 +1,6 @@
 export default function DocumentsPage() {
   return (
-    <section>
+    <section className="page-section">
       <h2 className="page-title">Documents</h2>
       <p className="page-text">
         Important HOA documents will be available here for easy resident access.

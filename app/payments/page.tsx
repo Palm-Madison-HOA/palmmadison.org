@@ -1,6 +1,6 @@
 export default function PaymentsPage() {
   return (
-    <section>
+    <section className="page-section">
       <h2 className="page-title">Payments</h2>
       <p className="page-text">
         HOA dues can be sent securely via Zelle using the email below:

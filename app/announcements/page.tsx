@@ -1,6 +1,6 @@
 export default function AnnouncementsPage() {
   return (
-    <section>
+    <section className="page-section">
       <h2 className="page-title">Announcements</h2>
       <p className="page-text">
         Community announcements, meeting reminders, and maintenance notices will

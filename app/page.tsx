@@ -1,6 +1,6 @@
 export default function HomePage() {
   return (
-    <section>
+    <section className="page-section">
       <h2 className="page-title">Welcome</h2>
       <p className="page-text">
         Welcome to the official website for the Palm Madison Apartments Homeowners Association.
