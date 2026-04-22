@@ -6,7 +6,7 @@ export default function HomePage() {
         Welcome to the official website for the Palm Madison Apartments Homeowners Association.
       </p>
       <p className="page-text">
-        Residents can use this website to stay informed about community updates,
+        Unit owners can use this website to stay informed about community updates,
         dues payments, board information, and important HOA documents.
       </p>
     </section>
