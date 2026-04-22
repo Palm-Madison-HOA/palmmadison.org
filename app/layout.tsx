@@ -25,7 +25,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <header className="site-header">
-          <div className="container">
+          <div className="header-container">
             <h1 className="site-title">Palm Madison Apartments HOA</h1>
             <nav aria-label="Main navigation">
               <ul className="nav-list">
@@ -38,7 +38,7 @@ export default function RootLayout({
             </nav>
           </div>
         </header>
-        <main className="container site-main">{children}</main>
+        <main className="content-container">{children}</main>
       </body>
     </html>
   );

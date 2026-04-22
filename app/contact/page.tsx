@@ -1,6 +1,6 @@
 export default function ContactPage() {
   return (
-    <section>
+    <section className="page-section">
       <h2 className="page-title">Contact</h2>
       <p className="page-text">
         For HOA questions or service requests, please contact the management

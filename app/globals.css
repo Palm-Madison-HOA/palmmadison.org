@@ -20,10 +20,16 @@ a:hover {
   text-decoration: underline;
 }
 
-.container {
+.header-container {
   margin: 0 auto;
   max-width: 960px;
   padding: 0 1rem;
+}
+
+.content-container {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 2rem 1.5rem;
 }
 
 .site-header {
@@ -44,18 +50,19 @@ a:hover {
   list-style: none;
 }
 
-.site-main {
-  padding: 2rem 1rem 3rem;
-}
-
 .page-title {
   color: #111827;
   font-size: 1.75rem;
   margin-bottom: 0.75rem;
 }
 
+.page-section {
+  display: grid;
+  gap: 0.75rem;
+}
+
 .page-text + .page-text {
-  margin-top: 0.75rem;
+  margin-top: 0;
 }
 
 .page-list {
