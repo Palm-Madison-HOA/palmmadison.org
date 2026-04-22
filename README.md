@@ -1,6 +1,6 @@
 # Palm Madison Apartments HOA Website
 
-This repository contains a Next.js 14 App Router website for the Palm Madison Apartments HOA.
+This repository contains a Next.js 15 App Router website for the Palm Madison Apartments HOA.
 
 ## Pages
 
