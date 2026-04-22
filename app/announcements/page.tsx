@@ -7,7 +7,7 @@ export default function AnnouncementsPage() {
         be posted here.
       </p>
       <p className="page-text">
-        Check this page regularly for updates that may affect residents.
+        Check this page regularly for updates that may affect residents and Unit Owners.
       </p>
     </section>
   );
