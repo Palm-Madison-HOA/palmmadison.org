@@ -39,6 +39,12 @@ export default function RootLayout({
           </div>
         </header>
         <main className="content-container">{children}</main>
+        <footer className="site-footer">
+          <p>Palm Madison Apartments HOA</p>
+          <p>
+            <a href="mailto:hoa@palmmadison.org">hoa@palmmadison.org</a>
+          </p>
+        </footer>
       </body>
     </html>
   );
