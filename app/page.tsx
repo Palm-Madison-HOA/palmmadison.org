@@ -1,14 +1,20 @@
 export default function HomePage() {
   return (
-    <section className="page-section">
-      <h2 className="page-title">Welcome</h2>
-      <p className="page-text">
-        Welcome to the official website for the Palm Madison Apartments Homeowners Association.
-      </p>
-      <p className="page-text">
-        Unit owners can use this website to stay informed about community updates,
-        dues payments, board information, and important HOA documents.
-      </p>
-    </section>
+    <main>
+      <section className="card">
+        <h1>Welcome to Palm Madison Apartments HOA</h1>
+
+        <p>
+          This website provides unit owners with access to community updates,
+          payment information, board details, and important HOA documents.
+        </p>
+
+        <h3>Property Address</h3>
+        <p>
+          1710 Madison St.<br />
+          Hollywood, FL 33020
+        </p>
+      </section>
+    </main>
   );
 }
