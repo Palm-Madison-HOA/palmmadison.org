@@ -39,12 +39,13 @@ export default function RootLayout({
           </div>
         </header>
         <main className="content-container">{children}</main>
-        <footer className="site-footer">
-          <p>Palm Madison Apartments HOA</p>
-          <p>
-            <a href="mailto:hoa@palmmadison.org">hoa@palmmadison.org</a>
-          </p>
-        </footer>
+        <footer className="footer">
+  <p><strong>Palm Madison Apartments HOA</strong></p>
+  <p>1710 Madison St., Hollywood, FL 33020</p>
+  <p>hoa@palmmadison.org</p>
+  <p className="footer-copy">© {new Date().getFullYear()} Palm Madison Apartments HOA</p>
+</footer>
+
       </body>
     </html>
   );
