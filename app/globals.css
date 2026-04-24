@@ -1,9 +1,11 @@
+/* Reset */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+/* Base */
 body {
   background: #f7f7f7;
   color: #333;
@@ -20,6 +22,7 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Layout Containers */
 .header-container {
   margin: 0 auto;
   max-width: 960px;
@@ -32,6 +35,7 @@ a:hover {
   padding: 2.5rem 1.5rem;
 }
 
+/* Header */
 .site-header {
   background: #ffffff;
   border-bottom: 1px solid #e5e7eb;
@@ -46,6 +50,7 @@ a:hover {
   margin-bottom: 0.9rem;
 }
 
+/* Navigation */
 .nav-list {
   display: flex;
   flex-wrap: wrap;
@@ -64,21 +69,12 @@ a:hover {
   text-decoration: none;
 }
 
+/* Typography */
 .page-title {
   color: #111827;
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 1.25rem;
-}
-
-.page-section {
-  background: #ffffff;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-  display: grid;
-  gap: 1rem;
-  margin-bottom: 2.5rem;
-  padding: 2rem;
 }
 
 .page-text {
@@ -90,6 +86,7 @@ a:hover {
   margin-top: 0;
 }
 
+/* Lists */
 .page-list {
   color: #555;
   line-height: 1.8;
@@ -100,15 +97,36 @@ a:hover {
   margin-top: 0.5rem;
 }
 
-.site-footer {
+/* Card Sections */
+.page-section,
+.card {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+  padding: 2rem;
+}
+
+/* Footer */
+.site-footer,
+.footer {
   border-top: 1px solid #e5e7eb;
-  margin-top: 2rem;
+  margin-top: 3rem;
   padding: 2rem 1.5rem;
   text-align: center;
 }
 
-.site-footer p {
+.site-footer p,
+.footer p {
   color: #9ca3af;
   font-size: 0.85rem;
   line-height: 1.6;
+}
+
+.footer-copy {
+  margin-top: 0.5rem;
+  color: #777;
+  font-size: 0.85rem;
 }
