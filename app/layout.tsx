@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import "./globals.css";
 
@@ -26,16 +27,25 @@ export default function RootLayout({
       <body>
         <header className="site-header">
           <div className="header-container">
-            <h1 className="site-title">Palm Madison Apartments HOA</h1>
-            <nav aria-label="Main navigation">
-              <ul className="nav-list">
-                {navLinks.map((link) => (
-                  <li key={link.href}>
-                    <Link href={link.href}>{link.label}</Link>
-                  </li>
-                ))}
-              </ul>
-            </nav>
+            <div className="header-left">
+              <h1 className="site-title">Palm Madison Apartments HOA</h1>
+              <nav aria-label="Main navigation">
+                <ul className="nav-list">
+                  {navLinks.map((link) => (
+                    <li key={link.href}>
+                      <Link href={link.href}>{link.label}</Link>
+                    </li>
+                  ))}
+                </ul>
+              </nav>
+            </div>
+            <Image
+              src="/logo.png"
+              alt="Palm Madison HOA logo"
+              width={80}
+              height={80}
+              className="header-logo"
+            />
           </div>
         </header>
         <main className="content-container">{children}</main>
